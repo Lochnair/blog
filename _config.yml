@@ -69,3 +69,11 @@ theme: cactus-dark
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type:
+
+# RSS feed
+feed:
+  type: atom
+  path: atom.xml
+  limit: 50
+  hub:
+  content:
