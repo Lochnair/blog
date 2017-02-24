@@ -77,3 +77,8 @@ feed:
   limit: 50
   hub:
   content:
+
+# Minify generated content
+html_minifier:
+  enable: true
+  exclude: 
