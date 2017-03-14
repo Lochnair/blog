@@ -82,3 +82,7 @@ feed:
 html_minifier:
   enable: true
   exclude: 
+
+# Generate sitemap
+sitemap:
+  path: sitemap.xml
