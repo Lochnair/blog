@@ -74,8 +74,8 @@ deploy:
   root: /srv/www-blog
   port: 22
   delete: true
-  verbose: true
-  ignore_errors: false
+  verbose: false
+  ignore_errors: true
 
 # RSS feed
 feed:
