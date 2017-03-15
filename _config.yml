@@ -68,7 +68,14 @@ theme: cactus-dark
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: rsync
+  host: www-blog.lochnair.net
+  user: lochnair
+  root: /srv/www-blog
+  port: 22
+  delete: true
+  verbose: true
+  ignore_errors: false
 
 # RSS feed
 feed:
