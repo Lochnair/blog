@@ -1,5 +1,10 @@
 [
     {
+        "name":"vyatta-wireguard",
+        "url":"https://github.com/Lochnair/vyatta-wireguard",
+        "desc":"Vyatta module for WireGuard"
+    },
+    {
         "name":"xt_tls",
         "url":"https://github.com/Lochnair/xt_tls",
         "desc":"TLS filtering for IPtables/netfilter"
