@@ -87,7 +87,7 @@ feed:
 
 # Minify generated content
 html_minifier:
-  enable: true
+  enable: false
   exclude: 
 
 # Generate sitemap
