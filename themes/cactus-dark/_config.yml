@@ -29,7 +29,8 @@ customize:
     social_links:
         github: https://github.com/Lochnair
         twitter: https://twitter.com/Lochnair
-    post_count: 5
+    show_all_posts: false
+    post_count: 10
     highlight: rainbow
 
 # RSS
