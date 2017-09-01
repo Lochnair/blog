@@ -17,6 +17,7 @@ tags: mips mips64 octeon edgemax edgerouter cavium octeon
 
 ## Folder structure
 Download the source archives into the `archives` folder. Extract the Cavium patchset archive into the `toolchain/patches` folder, the rest goes into the `toolchain/sources` folder.
+You need to create symlinks in the GCC source folder to the it's various dependencies as shown below.
 
 You also need to create build/ folders for each of the components we're building (Binutils, GCC, Musl)
 
@@ -35,6 +36,15 @@ toolchain/
     ...
   sources/
     binutils-2.23.2
+    gcc-7.2.0/
+      gmp -> ../gmp-6.1.2
+      isl -> ../isl-0.18
+      mpc -> ../mpc-1.0.3
+      mpfr -> ../mpfr-3.1.5
+    gmp-6.1.2
+    isl-0.18
+    mpc-1.0.3
+    mpfr-3.1.5
     ...
 ```
 
