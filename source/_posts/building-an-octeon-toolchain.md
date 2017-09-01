@@ -8,7 +8,7 @@ tags: mips mips64 octeon edgemax edgerouter cavium octeon
 ## Prerequisites
 - [Binutils 2.23.2](http://ftp.gnu.org/gnu/binutils/binutils-2.23.2.tar.bz2)
 - [Cavium patches](https://dl.lochnair.net/Toolchains/Octeon/toolchain-patches-SDK-3.1.0p2-build34.tgz)
-- [GCC 7.1.0](http://ftp.gnu.org/gnu/gcc/gcc-7.1.0/gcc-7.1.0.tar.bz2)
+- [GCC 7.2.0](http://ftp.gnu.org/gnu/gcc/gcc-7.2.0/gcc-7.2.0.tar.xz)
 - [GMP 6.1.2](http://ftp.gnu.org/gnu/gmp/gmp-6.1.2.tar.xz)
 - [ISL](http://isl.gforge.inria.fr/isl-0.18.tar.xz)
 - [MPC](http://ftp.gnu.org/gnu/mpc/mpc-1.0.3.tar.gz)
