@@ -102,18 +102,6 @@ neat_enable: true
 neat_html:
   enable: false
 
-# Deployment
-## Docs: https://hexo.io/docs/deployment.html
-deploy:
-  type: rsync
-  host: 10.5.0.5
-  user: lochnair
-  root: /var/www/blog/
-  port: 22
-  delete: true
-  verbose: false
-  ignore_errors: true
-
 # RSS feed
 feed:
   type: atom
