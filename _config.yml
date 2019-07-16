@@ -63,7 +63,44 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: cactus-dark
+theme: cactus
+
+
+# Theme config
+theme_config:
+  colorscheme: dark
+  highlight: rainbow
+
+  projects_url: https://github.com/Lochnair
+
+  nav:
+    home: /
+    about: /about
+    articles: /archives
+    projects: https://github.com/Lochnair
+    Donate: https://paypal.me/nsvee
+    Source: https://github.com/Lochnair/blog
+
+  social_links:
+    github: https://github.com/Lochnair
+    twitter: https://twitter.com/Lochnair
+    mail: mailto:contact@lochnair.net
+
+  tags_overview: false
+
+  posts_overview:
+    show_all_posts: false
+    post_count: 10
+    sort_updated: false
+
+  post:
+    show_updated: true
+
+## Minify and compress
+neat_enable: true
+
+neat_html:
+  enable: false
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -84,11 +121,6 @@ feed:
   limit: 50
   hub:
   content:
-
-# Minify generated content
-html_minifier:
-  enable: false
-  exclude: 
 
 # Generate sitemap
 sitemap:
