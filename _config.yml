@@ -96,6 +96,10 @@ theme_config:
   post:
     show_updated: true
 
+  copyright:
+    start_year: 2016
+    end_year:
+
 ## Minify and compress
 neat_enable: true
 
