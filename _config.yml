@@ -100,11 +100,37 @@ theme_config:
     start_year: 2016
     end_year:
 
-## Minify and compress
-neat_enable: true
-
-neat_html:
-  enable: false
+minify:
+  enable: true
+  html:
+    enable: false
+  gzip:
+    enable: true
+      - '*.html'
+      - '*.css'
+      - '*.js'
+      - '*.txt'
+      - '*.ttf'
+      - '*.atom'
+      - '*.stl'
+      - '*.xml'
+      - '*.svg'
+      - '*.eot'
+      - '*.json'
+  brotli:
+    enable: true
+    include:
+      - '*.html'
+      - '*.css'
+      - '*.js'
+      - '*.txt'
+      - '*.ttf'
+      - '*.atom'
+      - '*.stl'
+      - '*.xml'
+      - '*.svg'
+      - '*.eot'
+      - '*.json'
 
 # RSS feed
 feed:
