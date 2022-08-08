@@ -94,7 +94,7 @@ theme_config:
     sort_updated: false
 
   post:
-    show_updated: true
+    show_updated: false
 
   copyright:
     start_year: 2016
