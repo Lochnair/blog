@@ -96,6 +96,13 @@ theme_config:
   post:
     show_updated: false
 
+  utterances:
+    enabled: true
+    repo: Lochnair/blog
+    issue_term: pathname
+    label: comment
+    theme: photon-dark
+
   copyright:
     start_year: 2016
     end_year:
