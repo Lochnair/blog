@@ -82,9 +82,15 @@ theme_config:
     Source: https://github.com/Lochnair/blog
 
   social_links:
-    github: https://github.com/Lochnair
-    twitter: https://twitter.com/Lochnair
-    mail: mailto:contact@lochnair.net
+    -
+      icon: github
+      link: http://github.com/Lochnair
+    -
+      icon: twitter
+      link: https://twitter.com/Lochnair
+    -
+      icon: mail
+      link: mailto:contact@lochnair.net
 
   tags_overview: false
 
