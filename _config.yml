@@ -75,7 +75,6 @@ theme_config:
 
   nav:
     home: /
-    about: /about
     articles: /archives
     projects: https://github.com/Lochnair
     Donate: https://paypal.me/nsvee
@@ -86,11 +85,11 @@ theme_config:
       icon: github
       link: http://github.com/Lochnair
     -
-      icon: twitter
-      link: https://twitter.com/Lochnair
-    -
       icon: mail
       link: mailto:contact@lochnair.net
+    -
+      icon: whatsapp
+      link: https://wa.me/message/PLZJG3KSRU2IK1
 
   tags_overview: false
 
