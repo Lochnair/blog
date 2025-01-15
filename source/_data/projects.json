@@ -1,8 +1,23 @@
 [
     {
+        "name":"sqm-autorate",
+        "url":"https://github.com/sqm-autorate/sqm-autorate",
+        "desc":"Lua script to adjust CAKE bandwidth based on load and OWD/RTT times"
+    },
+    {
+        "name":"sqm-autorate-rust",
+        "url":"https://github.com/Lochnair/sqm-autorate-rust",
+        "desc":"Rust port of the sqm-autorate script"
+    },
+    {
+        "name":"tsping",
+        "url":"https://github.com/Lochnair/tsping",
+        "desc":"a simple application to send ICMP echo/timestamp requests"
+    },
+    {
         "name":"vyatta-wireguard",
         "url":"https://github.com/Lochnair/vyatta-wireguard",
-        "desc":"Vyatta module for WireGuard"
+        "desc":"Vyatta module for WireGuard (deprecated, see official repo)"
     },
     {
         "name":"xt_tls",
