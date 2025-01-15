@@ -10,6 +10,14 @@ author: Lochnair
 language: en
 timezone: Europe/Oslo
 
+pandoc:
+  args:
+    - "-f"
+    - "gfm"
+    - "-t"
+    - "html"
+    - "--mathjax"
+
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: https://www.lochnair.net
@@ -82,14 +90,11 @@ theme_config:
 
   social_links:
     -
-      icon: github
-      link: http://github.com/Lochnair
+      icon: whatsapp
+      link: https://wa.me/message/PLZJG3KSRU2IK1
     -
       icon: mail
       link: mailto:contact@lochnair.net
-    -
-      icon: whatsapp
-      link: https://wa.me/message/PLZJG3KSRU2IK1
 
   tags_overview: false
 
