@@ -387,7 +387,7 @@ fastboot flash system_a LineageOS-22.1-20250113-VANILLA-EXT4-GSI.img
 couldn't parse max-download-size 'no'
 Sending 'system_a' (2511884 KB)                    FAILED (remote: 'Invalid size')
 fastboot: error: Command failed
-````
+```
 
 But no, no such luck this time too. After faffing about with this for awhile, I remembered having toyed with the Android partition tools trying to figure out why custom ROM's wouldn't flash on the stock ROM.
 
@@ -397,11 +397,12 @@ And as in turns out, the answer is yes.
 I got the necessary tools for this with the `android-tools` package on Arch, but you should be able to find it for your distribution as well.
 
 Firstly, let's unpack the super.bin we dumped earlier to get each individual partition:
+
 ```bash
 mkdir ./evergo-gsi
 cd ./evergo-gsi
 lpunpack ../evergo-dump/super.bin
-````
+```
 
 Then we need to convert each file to a sparse image:
 
