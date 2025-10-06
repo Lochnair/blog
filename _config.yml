@@ -85,7 +85,8 @@ theme_config:
     home: /
     articles: /archives
     projects: https://github.com/Lochnair
-    Donate: https://paypal.me/nsvee
+    Donate: /donate
+    Hire me: /hire-me
     Source: https://github.com/Lochnair/blog
 
   social_links:
