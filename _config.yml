@@ -10,6 +10,10 @@ author: Nils Andreas Svee
 language: en
 timezone: Europe/Oslo
 
+marked:
+  prependRoot: true
+  postAsset: true
+
 pandoc:
   args:
     - "-f"
@@ -38,11 +42,11 @@ skip_render:
 # Writing
 new_post_name: :title.md # File name of new posts
 default_layout: post
+post_asset_folder: true
 titlecase: false # Transform title into titlecase
 external_link: 1 # Open external links in new tab
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
 relative_link: false
 future: true
 highlight:
