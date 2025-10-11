@@ -37,7 +37,8 @@ archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
-skip_render:
+skip_render: 
+   - "./source/um4mi.js"
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -121,6 +122,12 @@ theme_config:
   copyright:
     start_year: 2016
     end_year:
+
+  umami_analytics:
+    enabled: true
+    id: 5c2abe74-d6b7-412d-8561-30377a71412b
+    host: https://lochnair.net
+    script_name: um4mi.js
 
 minify:
   enable: true
