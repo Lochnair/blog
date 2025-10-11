@@ -82,7 +82,7 @@ theme: cactus
 # Theme config
 theme_config:
   colorscheme: dark
-  highlight: rainbow
+  highlight: tomorrow-night-bright
 
   projects_url: https://github.com/Lochnair
 
