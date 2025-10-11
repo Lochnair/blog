@@ -2,6 +2,16 @@
 title: Flashing a custom ROM on my Redmi Note 11 (China) [evergo]
 date: 2025-01-15 13:21:24
 tags:
+- redmi-note-11
+- custom-rom
+- android-flashing
+- mtkclient
+- fastboot
+- lineageos-gsi
+- partition-backup
+- project-treble
+- hyperos
+- miui
 ---
 
 ## Background

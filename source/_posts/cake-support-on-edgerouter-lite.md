@@ -3,6 +3,14 @@ title: Adding Cake support on the EdgeRouter Lite
 s: cake-support-on-edgerouter-lite
 date: 2016-09-18 13:53:00
 tags:
+- cake-qos
+- sch-cake
+- bufferbloat
+- edgerouter-lite
+- mips-cross-compile
+- traffic-shaping
+- iproute2
+- cavium-sdk
 ---
 **Update (9/Oct/2016):** The NAT feature in Cake now supports older kernels.
 

@@ -3,10 +3,14 @@ title: Bonding internet connections
 s: bonding-internet-connections
 date: 2017-03-13 15:49:04
 tags:
-- bonding
-- dsl 
-- internet
+- network-bonding
+- openvpn-bonding
+- dsl-aggregation
 - edgerouter
+- debian
+- load-balancing
+- redundancy
+- bonding-module
 ---
 
 ## Background ##

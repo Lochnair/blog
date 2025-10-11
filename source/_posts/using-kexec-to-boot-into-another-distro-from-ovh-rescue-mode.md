@@ -2,6 +2,13 @@
 title: Using kexec to boot into another distro from OVH rescue mode
 date: 2022-08-08 17:08:49
 tags:
+- kexec
+- ovh-rescue-mode
+- kernel-boot
+- server-provisioning
+- live-cd
+- rescue-environment
+- arch-linux
 ---
 ## Motivation
 

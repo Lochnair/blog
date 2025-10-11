@@ -2,6 +2,13 @@
 title: Install Pushbullet Indicator on Ubuntu 16.04
 date: 2016-09-16 00:06:19
 tags:
+- pushbullet
+- ubuntu-16.04
+- app-indicator
+- elementaryos
+- ppa-install
+- linux-notifications
+- desktop-integration
 ---
 Recently after install the latest ElementaryOS, I found myself wanting to have a Pushbullet indicator in the wingpanel.
 

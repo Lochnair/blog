@@ -3,6 +3,13 @@ title: 'Netfilter: Blocking sites using TLS'
 s: netfilter-blocking-sites-using-tls
 date: 2016-11-30 00:29:00
 tags:
+- netfilter
+- iptables
+- tls-filtering
+- sni-blocking
+- xt-tls
+- kernel-module
+- network-firewall
 ---
 Blocking certain websites is a task most of us need to do from time to time. A challenge that has arisen in the last years is TLS. Blocking HTTP traffic is not the most straightforward task, but it can be done using the netfilter string module.
 

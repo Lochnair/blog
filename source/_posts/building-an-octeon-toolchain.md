@@ -3,13 +3,14 @@ title: Building an Octeon toolchain
 s: building-an-octeon-toolchain
 date: 2017-05-19 19:11:00
 tags:
-- mips
-- mips64
 - octeon
-- edgemax
-- edgerouter
 - cavium
-- octeon
+- mips64
+- cross-toolchain
+- binutils
+- gcc
+- musl
+- embedded-development
 ---
 
 ## Prerequisites

@@ -3,6 +3,14 @@ title: Setting up a build environment for MIPS(el)
 s: build-environment-for-mips
 date: 2016-10-05 19:26:00
 tags:
+- mipsel
+- qemu
+- debootstrap
+- cross-debootstrap
+- emdebian
+- chroot
+- wheezy-mips
+- build-environment
 ---
 When compiling userspace tools for the EdgeRouter models (I'm using the same method when compiling the kernel for the ER-X), I've been using the QEMU emulator to emulate the MIPS architecture, as opposed to typical cross-compiling. But it's a pain to set up, and in my case it's been horribly slow to run.
 

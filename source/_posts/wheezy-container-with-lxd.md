@@ -3,6 +3,12 @@ title: Creating a Wheezy container with LXD
 s: wheezy-container-with-lxd
 date: 2017-01-05 12:46:53
 tags:
+- lxd
+- debian-wheezy
+- container
+- chroot-environment
+- dns-setup
+- linuxcontainers
 ---
 As most of those who've read my blog posts before, I'm providing sch_cake binaries for the EdgeRouter series. Currently whenever there's an update to the source I manually compile it for all the models.
 
