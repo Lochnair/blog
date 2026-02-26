@@ -10,7 +10,7 @@ importers:
     dependencies:
       hexo:
         specifier: ^8.0.0
-        version: 8.0.0(chokidar@3.6.0)
+        version: 8.1.1(chokidar@3.6.0)
       hexo-generator-archive:
         specifier: ^2.0.0
         version: 2.0.0
@@ -208,9 +208,6 @@ packages:
   anymatch@3.1.3:
     resolution: {integrity: sha512-KMReFUr0B4t+D+OBkjR3KYqvocp2XaSzO55UcB6mgQMd3KbcE+mWTyvVV7D/zsdEbNnV6acZUutkiHQXvTr1Rw==}
     engines: {node: '>= 8'}
-
-  archy@1.0.0:
-    resolution: {integrity: sha512-Xg+9RwCg/0p32teKdGMPTPnVXKD0w3DfHnFTficozsAgsvq2XenPJq/MYpzzQ/v8zrOyJn6Ds39VA4JIDwFfqw==}
 
   argparse@2.0.1:
     resolution: {integrity: sha512-8+9WqebbFzpX9OR+Wa6O29asIogeRMzcGtAINdpMHHyAg10f05aSFVBbcEqGf/PXw1EjAZ+q2/bEBg3DvurK3Q==}
@@ -532,6 +529,9 @@ packages:
     resolution: {integrity: sha512-aIL5Fx7mawVa300al2BnEE4iNvo1qETxLrPI/o05L7z6go7fCw1J6EQmbK4FmJ2AS7kgVF/KEZWufBfdClMcPg==}
     engines: {node: '>= 0.6'}
 
+  fast-archy@1.0.0:
+    resolution: {integrity: sha512-j8CNf0sCX92BogtUZAMPhMj7p3nv7xxeETwfpVWQNQocC5b21FAa6bUzfuhcNoEa4f2RtDe5U3uY0NriH9nA7g==}
+
   fast-equals@3.0.3:
     resolution: {integrity: sha512-NCe8qxnZFARSHGztGMZOO/PC1qa5MIFB5Hp66WdzbCRAz8U8US3bx1UTgLS49efBQPcUtO9gf5oVEY8o7y/7Kg==}
 
@@ -635,8 +635,8 @@ packages:
     resolution: {integrity: sha512-Q92zQ5PlVDouvSWFLXQoFSTLIUIODikUJs2BfAXQglyOEjN1dOQn1Z5Nimk/7GHof17R5h/uObCQLnZAjzI2tg==}
     engines: {node: '>=14'}
 
-  hexo-fs@5.0.0:
-    resolution: {integrity: sha512-oBkg1QgXyb4JxipaH+yCV/7E7XOUASTK6x1pocWvLw6U2mB6VfLENgYg61ft9Qn6JCiKSzs7FU4vyTUy6gIPvQ==}
+  hexo-fs@5.0.1:
+    resolution: {integrity: sha512-Zm4m21coQA7TtL9JL0oNZF+ypY/HbqwVdaqGqoKD+GEV7HH2Y1YObNBgl1o/lV1tzStC8f15AoRcHdS2jiWp0w==}
     engines: {node: '>=18'}
 
   hexo-generator-archive@2.0.0:
@@ -710,8 +710,8 @@ packages:
     resolution: {integrity: sha512-xYWXjOi/BM+wQJ/XCAhj14DcuZ54mazbTPobUmQ44axrNDMaP+omKjcq38xzqFEFNoAky27AozX1+DAD43gX+w==}
     engines: {node: '>= 18.12.0'}
 
-  hexo@8.0.0:
-    resolution: {integrity: sha512-GFNUICrDWvrBrhq4Oe2BUKg4UFJpaU0PjoAm5WIwf6O0gV52vPCGkGWQxH6AhOfJ1BEHm3hJALRl7RqOcgQP+A==}
+  hexo@8.1.1:
+    resolution: {integrity: sha512-UnzT4ImjKzMMuVRsvudxrl7MkdZwKe4S9xJN5pQPK9c+K0G+fLFb9kB6CqZZwj2E5ne+QK0ls4XMKqTUbNR3RQ==}
     engines: {node: '>=20.19.0'}
     hasBin: true
 
@@ -833,8 +833,8 @@ packages:
     peerDependencies:
       js-yaml: 4.x
 
-  js-yaml@4.1.0:
-    resolution: {integrity: sha512-wpxZs9NoxZaJESJGIZTyDEaYpl0FKSA+FB9aJiyemKhMwkxQg63h4T1KJgUGHpTqPDNRcmmYLugrRjJlBtWvRA==}
+  js-yaml@4.1.1:
+    resolution: {integrity: sha512-qQKT4zQxXl8lLwBtHMWwaTcGfFOZviOJet3Oy/xmGk2gZH677CJM9EvtfdSkgWcATZhj/55JZ0rmy3myCT5lsA==}
     hasBin: true
 
   jsdom@25.0.1:
@@ -953,8 +953,8 @@ packages:
   minimist@1.2.8:
     resolution: {integrity: sha512-2yyAR8qBkN3YuheJanUpWC5U3bb5osDywNB8RzDVlDwDHbocAJveqqj1u8+SVD7jkWT4yvsHCpWqqWqAxb0zCA==}
 
-  moize@6.1.6:
-    resolution: {integrity: sha512-vSKdIUO61iCmTqhdoIDrqyrtp87nWZUmBPniNjO0fX49wEYmyDO4lvlnFXiGcaH1JLE/s/9HbiK4LSHsbiUY6Q==}
+  moize@6.1.7:
+    resolution: {integrity: sha512-8/9XgYooMo7/q5tf6zGF4+Wp1jx5sbxV87uK6YvTq9rgDtusLWZCZ8c5C0EhYZbNGudul5EMeMsObO4Ug/gszg==}
     deprecated: This library has been deprecated in favor of micro-memoize, which as-of version 5 incorporates most of the functionality that this library offers at nearly half the size and better speed.
 
   moment-timezone@0.5.48:
@@ -1162,8 +1162,8 @@ packages:
   replacestream@4.0.3:
     resolution: {integrity: sha512-AC0FiLS352pBBiZhd4VXB1Ab/lh0lEgpP+GGvZqbQh8a5cmXVoTe5EX/YeTFArnp4SRGTHh1qCHu9lGs1qG8sA==}
 
-  resolve@1.22.10:
-    resolution: {integrity: sha512-NPRy+/ncIMeDlTAsuqwKIiferiawhefFJtkNSW0qZJEqMEb+qBt/77B/jGeeek+F0uOeN05CDa6HXbbIgtVX4w==}
+  resolve@1.22.11:
+    resolution: {integrity: sha512-RfqAvLnMl313r7c9oclB1HhUEAezcpLjz95wFH4LVuhk9JF/r22qmVP9AMmOU4vMX7Q8pN8jwNg/CSpdFnMjTQ==}
     engines: {node: '>= 0.4'}
     hasBin: true
 
@@ -1553,8 +1553,6 @@ snapshots:
       normalize-path: 3.0.0
       picomatch: 2.3.1
 
-  archy@1.0.0: {}
-
   argparse@2.0.1: {}
 
   arrify@1.0.1: {}
@@ -1862,6 +1860,8 @@ snapshots:
 
   etag@1.8.1: {}
 
+  fast-archy@1.0.0: {}
+
   fast-equals@3.0.3: {}
 
   fast-text-table@1.0.1: {}
@@ -1976,12 +1976,12 @@ snapshots:
       hexo-util: 3.3.0
       minimist: 1.2.8
       picocolors: 1.1.1
-      resolve: 1.22.10
+      resolve: 1.22.11
       tildify: 2.0.0
 
   hexo-front-matter@4.2.1:
     dependencies:
-      js-yaml: 4.1.0
+      js-yaml: 4.1.1
 
   hexo-fs@4.1.3:
     dependencies:
@@ -1990,7 +1990,7 @@ snapshots:
       graceful-fs: 4.2.11
       hexo-util: 3.3.0
 
-  hexo-fs@5.0.0:
+  hexo-fs@5.0.1:
     dependencies:
       bluebird: 3.7.2
       chokidar: 4.0.3
@@ -2113,22 +2113,22 @@ snapshots:
       svgo: 3.3.2
       terser: 5.44.0
 
-  hexo@8.0.0(chokidar@3.6.0):
+  hexo@8.1.1(chokidar@3.6.0):
     dependencies:
       abbrev: 3.0.1
-      archy: 1.0.0
       bluebird: 3.7.2
+      fast-archy: 1.0.0
       fast-text-table: 1.0.1
       hexo-cli: 4.3.2
       hexo-front-matter: 4.2.1
-      hexo-fs: 5.0.0
+      hexo-fs: 5.0.1
       hexo-i18n: 2.0.0
       hexo-log: 4.1.0
-      hexo-util: 3.3.0
-      js-yaml: 4.1.0
-      js-yaml-js-types: 1.0.1(js-yaml@4.1.0)
+      hexo-util: 4.0.0
+      js-yaml: 4.1.1
+      js-yaml-js-types: 1.0.1(js-yaml@4.1.1)
       micromatch: 4.0.8
-      moize: 6.1.6
+      moize: 6.1.7
       moment: 2.30.1
       moment-timezone: 0.5.48
       nunjucks: 3.2.4(chokidar@3.6.0)
@@ -2262,12 +2262,12 @@ snapshots:
 
   js-tokens@4.0.0: {}
 
-  js-yaml-js-types@1.0.1(js-yaml@4.1.0):
+  js-yaml-js-types@1.0.1(js-yaml@4.1.1):
     dependencies:
       esprima: 4.0.1
-      js-yaml: 4.1.0
+      js-yaml: 4.1.1
 
-  js-yaml@4.1.0:
+  js-yaml@4.1.1:
     dependencies:
       argparse: 2.0.1
 
@@ -2393,7 +2393,7 @@ snapshots:
 
   minimist@1.2.8: {}
 
-  moize@6.1.6:
+  moize@6.1.7:
     dependencies:
       fast-equals: 3.0.3
       micro-memoize: 4.2.0
@@ -2434,7 +2434,7 @@ snapshots:
   normalize-package-data@2.5.0:
     dependencies:
       hosted-git-info: 2.8.9
-      resolve: 1.22.10
+      resolve: 1.22.11
       semver: 5.7.2
       validate-npm-package-license: 3.0.4
 
@@ -2603,7 +2603,7 @@ snapshots:
       object-assign: 4.1.1
       readable-stream: 2.3.8
 
-  resolve@1.22.10:
+  resolve@1.22.11:
     dependencies:
       is-core-module: 2.16.1
       path-parse: 1.0.7
